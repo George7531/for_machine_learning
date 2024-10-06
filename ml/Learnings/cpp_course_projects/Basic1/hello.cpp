@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:eea494e36fd69a29514d89d16c6f7f48698c615f02282e8b5126a56bdb846286
-size 491
+#include <iostream>
+
+int main() // it is a function that returns integer number and it should be named main() and nothing else for the code to work.
+{
+    std::cout << "Hello George" << std::endl; 
+    /* 
+    //cout stands for character output and it is used to display 
+    output on the console. 
+    endl stands for endline and it is used to insert a 
+    newline character.
+    */
+   std::cout << "Asshole" << std::endl;
+
+    return 0; //indicating successful completion
+}

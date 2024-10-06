@@ -1,3 +1,32 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a3ec334237205e57377141d21de574f478d13d2f5ae60b70a7c93b60899679d1
-size 875
+cmake_minimum_required(VERSION 3.5)
+project(turtlesim_project_cpp)
+
+# Default to C++14
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 14)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+# find dependencies
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(my_robot_interfaces REQUIRED)
+find_package(turtlesim REQUIRED)
+find_package(geometry_msgs REQUIRED)
+
+add_executable(turtle_controller src/turtle_controller.cpp)
+ament_target_dependencies(turtle_controller rclcpp turtlesim my_robot_interfaces geometry_msgs)
+
+add_executable(turtle_spawner src/turtle_spawner.cpp)
+ament_target_dependencies(turtle_spawner rclcpp turtlesim my_robot_interfaces)
+
+install(TARGETS
+  turtle_controller
+  turtle_spawner
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+ament_package()

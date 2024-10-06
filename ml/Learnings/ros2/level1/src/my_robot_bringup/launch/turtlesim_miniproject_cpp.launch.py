@@ -1,3 +1,34 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ecbe8972450588d408ac269d90d0ff4d3e03c3a5c1f846f6046ffeba95103d58
-size 806
+from launch import LaunchDescription
+from launch_ros.actions import Node
+
+
+def generate_launch_description():
+    ld = LaunchDescription()
+
+    turtlesim_node = Node(
+        package="turtlesim",
+        executable="turtlesim_node"
+    )
+
+    turtle_spawner_node = Node(
+        package="turtlesim_project_cpp",
+        executable="turtle_spawner",
+        parameters=[
+            {"turtle_name_prefix": "my_turtle"},
+            {"spawn_frequency": 1.0}
+        ]
+    )
+
+    turtle_controller_node = Node(
+        package="turtlesim_project_cpp",
+        executable="turtle_controller",
+        parameters=[
+            {"catch_closest_turtle_first": True}
+        ]
+    )
+
+    ld.add_action(turtlesim_node)
+    ld.add_action(turtle_spawner_node)
+    ld.add_action(turtle_controller_node)
+
+    return ld

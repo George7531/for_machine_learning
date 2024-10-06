@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e518a421835bc02ba967149542b979015bed8d573b609255055e0a6db6455843
-size 633
+<?xml version="1.0"?>
+<robot name="my_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:include filename="common_properties.xacro" />
+    <xacro:include filename="mobile_base.xacro" />
+    <xacro:include filename="mobile_base_gazebo.xacro" />
+    <xacro:include filename="arm.xacro" />
+    <xacro:include filename="arm_gazebo.xacro" />
+
+    <joint name="mobile_base_arm_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="arm_base_link" />
+        <origin xyz="${base_length / 4.0} 0 ${base_height}" rpy="0 0 0" />
+    </joint>
+
+    <!-- <xacro:include filename="camera.xacro" /> -->
+
+</robot>

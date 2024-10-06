@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:aa1cfc8304be46e9b1207cf25ada355f3cac54ee2fdce671066c17a6e1ff9fb0
-size 423
+#include <iostream>
+#include <cmath>
+
+int square(int number) // this function returns a integer value
+{
+    return number*number;
+}
+
+double pow_(double number,double power) // this function returns a float value
+{
+    return std::pow(number,power);
+
+}
+int main(){
+    std::cout<< " 4^2 " << square(4) << ". " << std::endl;
+    std::cout<< " 4^3 = " << pow_(4.0,3.0) << "." << std::endl;
+    return 0;
+
+}

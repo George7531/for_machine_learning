@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c2dd9f755a5d3068010fabd2419a0d21d15015f4c6c9bb5e7cc0cf42b53770fb
-size 466
+{
+    "cmake.configureOnOpen": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": false,
+    "python.autoComplete.extraPaths": [
+        "~/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces"
+    ],
+    "workbench.activityBar.location": "hidden"
+}

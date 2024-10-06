@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:32bf6ba860c3ca1383247ee160aeeb2e504e7159e276cd8dda7c2a767ff31710
-size 315
+<launch>
+    <let name="number_node_name" value="my_number_publisher" />
+    <node pkg="lifecycle_cpp" exec="number_publisher" name="$(var number_node_name)"/>
+    <node pkg="lifecycle_py" exec="lifecycle_node_manager">
+        <param name="managed_node_name" value="$(var number_node_name)"/>
+    </node>
+</launch>

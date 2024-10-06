@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:018a0dd55ffb61c16aa8461bb8e0e917e10cffa1733d66beea9b440549906fe9
-size 152
+#include<iostream>
+
+int main()
+{
+    int a = 5; 
+    int b = 8;
+    int c = a+b;
+    std::cout << " a+b = " << c << std::endl; 
+    return 0;
+}

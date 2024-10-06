@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:feb64997406c8acf8ae5775d52322ee1f09f484f3e0f3ebdc04aa6c9a4debae9
-size 553
+#include<iostream>
+#include<vector>
+
+int main()
+{
+    std::vector<double> temperatures = {4,28,32.5,43};
+    std::cout << temperatures.at(0) << std::endl; // this is akin to indexation
+    std::cout << temperatures.size() << std::endl; // len() in python
+    temperatures.push_back(22.5); // append in python
+
+    // accessing all the elements of the vector 'temperatures'
+    for(size_t i=0; i<temperatures.size(); ++i){
+        std::cout << "Element at index " << i << " is: " << temperatures[i] << std::endl; 
+    }
+
+
+    return 0;
+}

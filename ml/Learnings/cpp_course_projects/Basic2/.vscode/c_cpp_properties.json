@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:096f79b682152042078bd7fd960497dd5b84c5c813679fb914b087a81933a683
-size 411
+{
+  "configurations": [
+    {
+      "name": "windows-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "compilerPath": "D:/studies/Apps/STM32CubeIDE_1.13.2/STM32CubeIDE/CTOOLS/mingw32/bin/gcc.exe",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "windows-gcc-x64",
+      "compilerArgs": [
+        ""
+      ]
+    }
+  ],
+  "version": 4
+}

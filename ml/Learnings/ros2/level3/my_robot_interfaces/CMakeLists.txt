@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:59655a070c38c720bfeef84927dcb4410b9a3b172663fb99b32656100e190f4a
-size 468
+cmake_minimum_required(VERSION 3.8)
+project(my_robot_interfaces)
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+# find dependencies
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "action/CountUntil.action"
+  "action/MoveRobot.action"
+)
+
+ament_export_dependencies(rosidl_default_runtime)
+
+ament_package()
