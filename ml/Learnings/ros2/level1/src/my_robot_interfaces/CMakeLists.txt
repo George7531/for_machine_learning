@@ -1,29 +1,3 @@
-cmake_minimum_required(VERSION 3.5)
-project(my_robot_interfaces)
-
-# Default to C++14
-if(NOT CMAKE_CXX_STANDARD)
-  set(CMAKE_CXX_STANDARD 14)
-endif()
-
-if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  add_compile_options(-Wall -Wextra -Wpedantic)
-endif()
-
-# find dependencies
-find_package(ament_cmake REQUIRED)
-find_package(rosidl_default_generators REQUIRED)
-
-rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/HardwareStatus.msg"
-  "msg/LedStateArray.msg"
-  "msg/Turtle.msg"
-  "msg/TurtleArray.msg"
-  "srv/ComputeRectangleArea.srv"
-  "srv/SetLed.srv"
-  "srv/CatchTurtle.srv"
-)
-
-ament_export_dependencies(rosidl_default_runtime)
-
-ament_package()
+version https://git-lfs.github.com/spec/v1
+oid sha256:f53a72890aff10fbf1ff128ca4c935c0126d4a9877a46a36e9cf2edb8b4bcf39
+size 667
