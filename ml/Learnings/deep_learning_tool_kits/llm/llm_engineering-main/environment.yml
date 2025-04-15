@@ -1,3 +1,50 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:aaa6042988284ca76271e6672d897f2f8b29a98aac95df617a2cc670f98fee55
-size 760
+name: llms
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - python-dotenv
+  - requests
+  - beautifulsoup4
+  - pydub
+  - numpy
+  - pandas
+  - scipy
+  - pytorch
+  - jupyterlab
+  - ipywidgets
+  - pyarrow
+  - anthropic
+  - google-generativeai
+  - matplotlib
+  - scikit-learn
+  - chromadb
+  - langchain
+  - langchain-text-splitters
+  - langchain-openai
+  - langchain-experimental
+  - langchain-chroma
+  - faiss-cpu
+  - tiktoken
+  - jupyter-dash
+  - plotly
+  - twilio
+  - duckdb
+  - feedparser
+  - pip:
+    - transformers
+    - sentence-transformers
+    - datasets
+    - accelerate
+    - sentencepiece
+    - bitsandbytes
+    - openai
+    - gradio
+    - gensim
+    - modal
+    - ollama
+    - psutil
+    - setuptools
+    - speedtest-cli

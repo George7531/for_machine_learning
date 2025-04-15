@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bf774fb55a622aebe303514255b23a96c131615e8afeb03bb63072f36fb5b358
-size 422
+import modal
+from modal import App, Image
+
+# Setup
+
+app = modal.App("hello")
+image = Image.debian_slim().pip_install("requests")
+
+# Hello!
+
+@app.function(image=image)
+def hello() -> str:
+    import requests
+    
+    response = requests.get('https://ipinfo.io/json')
+    data = response.json()
+    city, region, country = data['city'], data['region'], data['country']
+    return f"Hello from {city}, {region}, {country}!!"

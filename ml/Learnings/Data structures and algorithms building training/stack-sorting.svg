@@ -1,3 +1,53 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f53c1aad0b3d918c2d705fe1e3038abb1b8135b1c389f26f44f3dd7ca9e51d6c
-size 2525
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+    <!-- Background -->
+    <rect width="600" height="300" fill="#f8f9fa"/>
+    
+    <!-- Initial Stack -->
+    <g transform="translate(100,50)">
+        <text x="-20" y="20" font-size="14" fill="#333">Start:</text>
+        <rect x="0" y="0" width="100" height="40" fill="#ff9999" stroke="#333"/>
+        <text x="50" y="25" text-anchor="middle" font-size="16">7</text>
+        
+        <rect x="0" y="40" width="100" height="40" fill="#ff9999" stroke="#333"/>
+        <text x="50" y="65" text-anchor="middle" font-size="16">3</text>
+        
+        <rect x="0" y="80" width="100" height="40" fill="#ff9999" stroke="#333"/>
+        <text x="50" y="105" text-anchor="middle" font-size="16">9</text>
+        
+        <rect x="0" y="120" width="100" height="40" fill="#ff9999" stroke="#333"/>
+        <text x="50" y="145" text-anchor="middle" font-size="16">1</text>
+        
+        <rect x="0" y="160" width="100" height="40" fill="#ff9999" stroke="#333"/>
+        <text x="50" y="185" text-anchor="middle" font-size="16">5</text>
+    </g>
+    
+    <!-- Arrow -->
+    <path d="M 220,120 L 280,120" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+        </marker>
+    </defs>
+    
+    <!-- Sorted Stack -->
+    <g transform="translate(300,50)">
+        <text x="-20" y="20" font-size="14" fill="#333">End:</text>
+        <rect x="0" y="0" width="100" height="40" fill="#90EE90" stroke="#333"/>
+        <text x="50" y="25" text-anchor="middle" font-size="16">1</text>
+        
+        <rect x="0" y="40" width="100" height="40" fill="#90EE90" stroke="#333"/>
+        <text x="50" y="65" text-anchor="middle" font-size="16">3</text>
+        
+        <rect x="0" y="80" width="100" height="40" fill="#90EE90" stroke="#333"/>
+        <text x="50" y="105" text-anchor="middle" font-size="16">5</text>
+        
+        <rect x="0" y="120" width="100" height="40" fill="#90EE90" stroke="#333"/>
+        <text x="50" y="145" text-anchor="middle" font-size="16">7</text>
+        
+        <rect x="0" y="160" width="100" height="40" fill="#90EE90" stroke="#333"/>
+        <text x="50" y="185" text-anchor="middle" font-size="16">9</text>
+    </g>
+    
+    <!-- Labels -->
+    <text x="300" y="270" text-anchor="middle" font-size="14" fill="#666">Sorted in ascending order</text>
+</svg>
