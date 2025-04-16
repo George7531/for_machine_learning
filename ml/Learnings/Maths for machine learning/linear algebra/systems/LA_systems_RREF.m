@@ -1,26 +1,3 @@
-%%
-%     COURSE: Linear algebra: theory and implementation
-%    SECTION: Solving systems of equations
-%      VIDEO: Reduced row echelon form
-% Instructor: sincxpress.com
-% Course url: https://www.udemy.com/course/linear-algebra-theory-and-implementation/?couponCode=202110
-% 
-%%
-
-% make some random matrices
-A = randn(4,4);
-B = randn(4,4);
-
-% print out the matrix and its rref
-[A rref(A)]
-[B rref(B)]
-
-
-% here's how you check your homework:
-M = [ 1 2 4 5;
-      2 4 5 4;
-      4 5 4 2 ];
-
-[M rref(M)]
-
-%% done.
+version https://git-lfs.github.com/spec/v1
+oid sha256:5f11d71da648a0e4fbe737ee2bf69a410fb56299f252757c269d405c30075ecd
+size 511

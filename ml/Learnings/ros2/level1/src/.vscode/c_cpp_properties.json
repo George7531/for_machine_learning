@@ -1,18 +1,3 @@
-{
-    "configurations": [
-        {
-            "name": "Linux",
-            "includePath": [
-                "${workspaceFolder}/**",
-                "/opt/ros/foxy/include",
-                "~/ros2_ws/install/my_robot_interfaces/include"
-            ],
-            "defines": [],
-            "compilerPath": "/usr/bin/gcc",
-            "cStandard": "c11",
-            "cppStandard": "gnu++14",
-            "intelliSenseMode": "clang-x64"
-        }
-    ],
-    "version": 4
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c5c05b14a8b3aad63f58bb81a5c76cb7b466750d1d121f2e992d544bbbb69704
+size 475

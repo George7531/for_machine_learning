@@ -1,24 +1,3 @@
-%%
-%     COURSE: Linear algebra: theory and implementation
-%    SECTION: Introduction to matrices
-%      VIDEO: Diagonal and trace
-% Instructor: sincxpress.com
-% Course url: https://www.udemy.com/course/linear-algebra-theory-and-implementation/?couponCode=202110
-%
-%%
-
-M = round( 5*randn(4) );
-
-% extract the diagonals
-d = diag(M);
-
-% notice the two ways of using the diag function
-d = diag(M); % input is matrix, output is vector
-D = diag(d); % input is vector, output is matrix
-
-
-% trace as sum of diagonal elements
-tr = trace(M);
-tr2 = sum( diag(M) );
-
-%% done.
+version https://git-lfs.github.com/spec/v1
+oid sha256:a9af73949e69fd8221ed69ba0f075b1ebf0732def16e44a064c9726b56e481ba
+size 565

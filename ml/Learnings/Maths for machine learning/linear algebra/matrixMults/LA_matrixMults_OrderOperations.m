@@ -1,25 +1,3 @@
-%%
-%     COURSE: Linear algebra: theory and implementation
-%    SECTION: Matrix multiplication
-%      VIDEO: Order of operations on matrices
-% Instructor: sincxpress.com
-% Course url: https://www.udemy.com/course/linear-algebra-theory-and-implementation/?couponCode=202110
-%
-%%
-
-n = 2;
-L = randn(n);
-I = randn(n);
-V = randn(n);
-E = randn(n);
-
-% result of "forward" multiplication and then transpose
-res1 = (L*I*V*E)';
-
-% result of "flipped" multiplication of transposed matrices
-res2 = E'*V'*I'*L';
-
-% test equality by subtracting (ignore possible computer rounding errors)
-res1-res2
-
-%% done.
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a3dae8dc4a7744361d573cb7b5ee46191a840d7e324c9ea55f1e26a0f35a3f0
+size 594

@@ -1,21 +1,3 @@
-cmake_minimum_required(VERSION 3.5)
-project(my_robot_bringup)
-
-# Default to C++14
-if(NOT CMAKE_CXX_STANDARD)
-  set(CMAKE_CXX_STANDARD 14)
-endif()
-
-if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  add_compile_options(-Wall -Wextra -Wpedantic)
-endif()
-
-# find dependencies
-find_package(ament_cmake REQUIRED)
-
-install(DIRECTORY
-  launch
-  DESTINATION share/${PROJECT_NAME}
-)
-
-ament_package()
+version https://git-lfs.github.com/spec/v1
+oid sha256:d86254d1562f284c805cbfbd01cc72d3c4b91ca6712eab1d59a94e55826bab38
+size 412

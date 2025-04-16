@@ -1,4 +1,3 @@
-float64 length
-float64 width
----
-float64 area
+version https://git-lfs.github.com/spec/v1
+oid sha256:f87fc6566dcd422cccc90e6cad039554f472cceaa6b0d41ff3ae4ab1b2c1e59a
+size 45

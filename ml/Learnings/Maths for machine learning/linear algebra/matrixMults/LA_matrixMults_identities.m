@@ -1,26 +1,3 @@
-%%
-%     COURSE: Linear algebra: theory and implementation
-%    SECTION: Matrix multiplication
-%      VIDEO: Additive and multiplicative matrix identities
-% Instructor: sincxpress.com
-% Course url: https://www.udemy.com/course/linear-algebra-theory-and-implementation/?couponCode=202110
-%
-%%
-
-% size of matrices
-n = 4;
-
-A = round( 10*randn(n) );
-I = eye(n);
-Z = zeros(n);
-
-
-% test both identities (answer is 1=true or 0=false)
-isequal( A*I , A   )
-isequal( A   , A*I )
-isequal( A   , A+I )
-
-isequal( A   , A+Z )
-isequal( A+Z , A*I )
-
-%% done.
+version https://git-lfs.github.com/spec/v1
+oid sha256:29fa7585fd8a03f965272748833f80398e549e4ab4af1ecd1a5383594a6fddf1
+size 543

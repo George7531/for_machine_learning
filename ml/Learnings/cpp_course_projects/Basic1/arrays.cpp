@@ -1,10 +1,3 @@
-#include<iostream>
-
-int main()
-{
-    double temperature_list[4] = {36.5,22.3,38,1.5};
-    std::cout << "Before modification: " << temperature_list[1] << std::endl;
-    temperature_list[1] = 18;
-    std::cout << "After Modification: " << temperature_list[1] << std::endl;
-    return 0;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4bad30b93c220e921e65ffc52639249881d28d706c3f6857b5a83226510686dc
+size 295

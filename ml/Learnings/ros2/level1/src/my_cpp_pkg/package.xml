@@ -1,22 +1,3 @@
-<?xml version="1.0"?>
-<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<package format="3">
-  <name>my_cpp_pkg</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="ed@todo.todo">ed</maintainer>
-  <license>TODO: License declaration</license>
-
-  <buildtool_depend>ament_cmake</buildtool_depend>
-
-  <depend>rclcpp</depend>
-  <depend>example_interfaces</depend>
-  <depend>my_robot_interfaces</depend>
-
-  <test_depend>ament_lint_auto</test_depend>
-  <test_depend>ament_lint_common</test_depend>
-
-  <export>
-    <build_type>ament_cmake</build_type>
-  </export>
-</package>
+version https://git-lfs.github.com/spec/v1
+oid sha256:f15a8b72609921a261e0ace8cfc2792cd5f990ae120904bad8a6fe5519577ffa
+size 694

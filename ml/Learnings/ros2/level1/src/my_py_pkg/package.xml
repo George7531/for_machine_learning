@@ -1,22 +1,3 @@
-<?xml version="1.0"?>
-<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<package format="3">
-  <name>my_py_pkg</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="ed@todo.todo">ed</maintainer>
-  <license>TODO: License declaration</license>
-
-  <depend>rclpy</depend>
-  <depend>example_interfaces</depend>
-  <depend>my_robot_interfaces</depend>
-
-  <test_depend>ament_copyright</test_depend>
-  <test_depend>ament_flake8</test_depend>
-  <test_depend>ament_pep257</test_depend>
-  <test_depend>python3-pytest</test_depend>
-
-  <export>
-    <build_type>ament_python</build_type>
-  </export>
-</package>
+version https://git-lfs.github.com/spec/v1
+oid sha256:3940c0980d84611ecfe50985c64fbef06ef765aa6597baed02a57d168e9ffd2c
+size 722

@@ -1,24 +1,3 @@
-{
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
-      "request": "launch",
-      "args": [],
-      "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "c:/Users/ADMIN/for_machine_learning/for_machine_learning/ml/Learnings/cpp_course_projects/Basic2",
-      "program": "c:/Users/ADMIN/for_machine_learning/for_machine_learning/ml/Learnings/cpp_course_projects/Basic2/build/Debug/outDebug",
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "setupCommands": [
-        {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        }
-      ]
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:476e512dc7527ef418939ad1d07c7ebda14192b1b31de96bc5c016ed31ed4d5c
+size 731

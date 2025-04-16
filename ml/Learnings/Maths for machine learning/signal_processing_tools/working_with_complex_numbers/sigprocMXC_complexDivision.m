@@ -1,19 +1,3 @@
-%%
-%     COURSE: Signal processing problems, solved in MATLAB and Python
-%    SECTION: Working with complex numbers
-%      VIDEO: Division with complex numbers
-% Instructor: sincxpress.com
-%
-%%
-
-% create two complex numbers
-a = complex(4,-5);
-b = complex(7,8);
-
-% let MATLAB do the hard work
-adb1 = a/b;
-
-% the "manual" way
-adb2 = (a*conj(b)) / (b*conj(b));
-
-%% done.
+version https://git-lfs.github.com/spec/v1
+oid sha256:00de66861a19b883d5b2b15d4e82aa780584b87fef4d48e6bb66f0a1c27599e5
+size 387

@@ -1,22 +1,3 @@
-%%
-%     COURSE: Linear algebra: theory and implementation
-%    SECTION: Introduction to matrices
-%      VIDEO: Transpose
-% Instructor: sincxpress.com
-% Course url: https://www.udemy.com/course/linear-algebra-theory-and-implementation/?couponCode=202110
-%
-%%
-
-M = [ 1 2 3; 2 3 4 ];
-
-M'
-M'' % note: '' not "
-
-% warning! be careful when using complex matrices
-C = [ 4+1i 3 2-4i ];
-C'
-transpose(C)
-C.'
-
-
-%% done.
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ccfae9fa571d52828c74a28c96b365e898dec6d8419a26e88e6f28b8de97dc0
+size 410

@@ -1,18 +1,3 @@
-%%
-%     COURSE: Linear algebra: theory and implementation
-%    SECTION: Introduction to matrices
-%      VIDEO: Matrix-scalar multiplication
-% Instructor: sincxpress.com
-% Course url: https://www.udemy.com/course/linear-algebra-theory-and-implementation/?couponCode=202110
-%
-%%
-
-M = [1 2; 2 5];
-s = 2;
-
-% pre- and post-multiplication is the same:
-M*s
-s*M
-
-
-%% done.
+version https://git-lfs.github.com/spec/v1
+oid sha256:c3132df92422111ee8a21e21312fbffb4e66e4b7ec90d97ffc6082431d397f72
+size 366

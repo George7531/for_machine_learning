@@ -1,29 +1,3 @@
-%%
-%     COURSE: Linear algebra: theory and implementation
-%    SECTION: Introduction to matrices
-%      VIDEO: Matrix addition and subtraction
-% Instructor: sincxpress.com
-% Course url: https://www.udemy.com/course/linear-algebra-theory-and-implementation/?couponCode=202110
-%
-%%
-
-% create random matrices
-A = randn(5,4);
-B = randn(5,3);
-C = randn(5,4);
-
-% try to add them
-A+B
-A+C
-
-
-
-% "shifting" a matrix
-l = .3; % lambda
-N = 5; % size of square matrix
-D = randn(N); % can only shift a square matrix
-
-% 
-Ds = D + l*eye(N);
-
-%% done.
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2b2be4e14bd64e6fa95c8d81318775bd4712d926d68eda6ac1d557bc853e469
+size 535

@@ -1,19 +1,3 @@
-#!/usr/bin/env python3
-import rclpy
-from rclpy.node import Node
-
-
-class MyCustomNode(Node): # MODIFY NAME
-    def __init__(self):
-        super().__init__("node_name") # MODIFY NAME
-
-
-def main(args=None):
-    rclpy.init(args=args)
-    node = MyCustomNode() # MODIFY NAME
-    rclpy.spin(node)
-    rclpy.shutdown()
-
-
-if __name__ == "__main__":
-    main()
+version https://git-lfs.github.com/spec/v1
+oid sha256:e91ff81cb382daf84d369c5c431d5dc9f6047235266f3d3caab47dac602f5efc
+size 353

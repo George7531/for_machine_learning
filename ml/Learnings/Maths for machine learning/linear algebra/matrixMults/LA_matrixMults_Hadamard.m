@@ -1,21 +1,3 @@
-%%
-%     COURSE: Linear algebra: theory and implementation
-%    SECTION: Matrix multiplication
-%      VIDEO: Element-wise (Hadamard) multiplication
-% Instructor: sincxpress.com
-% Course url: https://www.udemy.com/course/linear-algebra-theory-and-implementation/?couponCode=202110
-%
-%%
-
-% any matrix sizes
-m = 13;
-n =  2;
-
-% but the two matrices must be the same size
-A = randn(m,n);
-B = randn(m,n);
-
-% note the .* instead of *
-C = A .* B
-
-%% done.
+version https://git-lfs.github.com/spec/v1
+oid sha256:8820618a89675b47209e72ac00d42084f174b569d7a9979b822c2d6349bca453
+size 448

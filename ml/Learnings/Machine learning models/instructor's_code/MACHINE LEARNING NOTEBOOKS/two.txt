@@ -1,9 +1,3 @@
-Dogs poop everywhere
-
-if you do not take your dogs out, they will poop all over your house.
-
-dogs sometimes unnecessarily bark at strangers. 
-
-their incessant barks are a right set of tools to jolt you up from your bed at night. 
-
-i do not know how secure they can keep your be but they are a great nuisance to your sleep. 
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc39920bf97bfda3f970d9dfd216d4665d0629bac999b81af89582435441a946
+size 331

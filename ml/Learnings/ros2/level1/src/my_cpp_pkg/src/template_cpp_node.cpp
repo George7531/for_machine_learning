@@ -1,20 +1,3 @@
-#include "rclcpp/rclcpp.hpp"
-
-class MyCustomNode : public rclcpp::Node // MODIFY NAME
-{
-public:
-    MyCustomNode() : Node("node_name") // MODIFY NAME
-    {
-    }
-
-private:
-};
-
-int main(int argc, char **argv)
-{
-    rclcpp::init(argc, argv);
-    auto node = std::make_shared<MyCustomNode>(); // MODIFY NAME
-    rclcpp::spin(node);
-    rclcpp::shutdown();
-    return 0;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c9cd1ec39f04d07e663246beafd8d64e6299f1b2291ee5b847de40022f4ff1e8
+size 369

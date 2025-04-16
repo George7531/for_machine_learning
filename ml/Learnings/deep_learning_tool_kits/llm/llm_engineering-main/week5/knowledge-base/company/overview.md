@@ -1,10 +1,3 @@
-# Overview of Insurellm
-
-Insurellm is an innovative insurance tech firm with 200 employees across the US.
-Insurellm offers 4 insurance software products:
-- Carllm, a portal for auto insurance companies
-- Homellm, a portal for home insurance companies
-- Rellm, an enterprise platform for the reinsurance sector
-- Marketllm, a marketplace for connecting consumers with insurance providers
-  
-Insurellm has more than 300 clients worldwide.
+version https://git-lfs.github.com/spec/v1
+oid sha256:8838f6d396dfad45933e201e86218768acea0ae2cf8a6a0676213234b92dc3f1
+size 436

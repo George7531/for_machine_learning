@@ -1,9 +1,3 @@
-# Goal
-int64 target_number
-float64 period
----
-# Result
-int64 reached_number
----
-# Feedback
-int64 current_number
+version https://git-lfs.github.com/spec/v1
+oid sha256:7adf183118d200d51a3b6db55c65d0941c4e010dee3f07ed764c9e0b59c91a25
+size 111

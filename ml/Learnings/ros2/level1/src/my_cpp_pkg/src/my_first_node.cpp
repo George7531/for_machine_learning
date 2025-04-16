@@ -1,32 +1,3 @@
-#include "rclcpp/rclcpp.hpp"
-
-class MyNode : public rclcpp::Node
-{
-public:
-    MyNode() : Node("cpp_test"), counter_(0)
-    {
-        RCLCPP_INFO(this->get_logger(), "Hello Cpp Node");
-
-        timer_ = this->create_wall_timer(std::chrono::seconds(1),
-                                         std::bind(&MyNode::timerCallback, this));
-    }
-
-private:
-    void timerCallback()
-    {
-        counter_++;
-        RCLCPP_INFO(this->get_logger(), "Hello %d", counter_);
-    }
-
-    rclcpp::TimerBase::SharedPtr timer_;
-    int counter_;
-};
-
-int main(int argc, char **argv)
-{
-    rclcpp::init(argc, argv);
-    auto node = std::make_shared<MyNode>();
-    rclcpp::spin(node);
-    rclcpp::shutdown();
-    return 0;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:55c1105848525e5e4788485cda1d5448d6240a215ecd4b1e5d96fffa4422bdd1
+size 706

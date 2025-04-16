@@ -1,29 +1,3 @@
-%%
-%     COURSE: Linear algebra: theory and implementation
-%    SECTION: Matrix rank
-%      VIDEO: Making a matrix full-rank by "shifting"
-% Instructor: sincxpress.com
-% Course url: https://www.udemy.com/course/linear-algebra-theory-and-implementation/?couponCode=202110
-%
-%%
-
-% size of matrix
-m = 30;
-
-% create the square symmetric matrix
-A = randn(m);
-A = round( 10*A'*A );
-
-% reduce the rank
-A(:,1) = A(:,2);
-
-% shift amount (lambda)
-l = .01;
-
-% new matrix
-B = A + l*eye(m);
-
-disp([ 'rank(w/o shift)  = ' num2str(rank(A)) ])
-disp([ 'rank(with shift) = ' num2str(rank(B)) ])
-
-%% done.
+version https://git-lfs.github.com/spec/v1
+oid sha256:8eba60894af70e6b58a7edc004cad6ad0b052410c2c69e46c3773d9e16a1f3d6
+size 587
